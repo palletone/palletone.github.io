@@ -353,7 +353,7 @@ body {
 
 #intro .hex.big>.text,
 #how   .hex.big>.text {
-	padding: 12% 20%;
+	padding: 8% 15%;
 }
 
 #intro .hex.big>.text>.title,
@@ -369,7 +369,7 @@ body {
 
 #intro .hex.medium>.text,
 #how   .hex.medium>.text {
-	padding: 12% 15%;
+	padding: 6% 17%;
 }
 
 #intro .hex.medium>.text>.title,
@@ -450,7 +450,7 @@ body {
 	font-size: 2em;
 	font-weight: bold;
 	text-decoration: underline;
-	margin: 1.5em 0;
+	margin: .7em 0;
 	height: 2em;
 }
 

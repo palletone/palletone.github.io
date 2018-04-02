@@ -1,176 +1,143 @@
 var events = [
 	{
-		'year':2014,
-		'month':'May',
-		'content': {
-			'en':'Gcoin start',
-			'zh-tw':'',
-			'zh-cn':'Gcoin 项目开始'
-		}
-	},{
-		'year':2014,
+		'year':2015,
 		'month':'Oct',
 		'content': {
-			'en':'Gcoin API start',
+			'en':'vChain (internal project) Concept born',
 			'zh-tw':'',
-			'zh-cn':'Gcoin API 开始制作'
+			'zh-cn':'vChain（内部项目）概念的诞生'
 		}
 	},{
-		'year':2014,
-		'month':'Dec',
-		'content': {
-			'en':'Gcoin opensource',
-			'zh-tw':'',
-			'zh-cn':'Gcoin 开源'
-		}
-	},{
-		'year':2015,
+		'year':2016,
 		'month':'Apr',
 		'content': {
-			'en':'Release Gcoin whitepaper 1.0',
+			'en':'Release illustration about vChain',
 			'zh-tw':'',
-			'zh-cn':'释出 Gcoin 白皮书1.0'
-		}
-	},{
-		'year':2015,
-		'month':'Oct',
-		'content': {
-			'en':'Gcoin wallet apps available',
-			'zh-tw':'',
-			'zh-cn':'Gcoin 钱包上线'
+			'zh-cn':'发布vChain说明'
 		}
 	},{
 		'year':2016,
+		'month':'Nov',
+		'content': {
+			'en':'Update vChain-compat-openssl.spec',
+			'zh-tw':'',
+			'zh-cn':'更新vChain-compat-openssl.spec'
+		}
+	},{
+		'year':2017,
+		'month':'Feb',
+		'content': {
+			'en':'Develop vChain explorer',
+			'zh-tw':'',
+			'zh-cn':'开发vChain浏览器'
+		}
+	},{
+		'year':2017,
 		'month':'May',
 		'content': {
-			'en':'Gcoin API v2',
+			'en':'Modify vChain EVM from Ethereum EVM',
 			'zh-tw':'',
-			'zh-cn':'释出 Gcoin API 第二版'
-		}
-	},{
-		'year':2016,
-		'month':'Aug',
-		'content': {
-			'en':'Decoupling of EVM on Gcoin',
-			'zh-tw':'',
-			'zh-cn':'在 Gcoin 上成功架设虚拟机'
+			'zh-cn':'根据Ethereum EVM修改vChain EVM'
 		}
 	},{
 		'year':2017,
-		'month':'Aug',
+		'month':'June',
 		'content': {
-			'en':'Concept of Pallet born',
-			'zh-tw':'創始 Pallet 概念',
-			'zh-cn':'设计 Pallet 概念'
+			'en':'Decouple oracle module from vChain',
+			'zh-tw':'',
+			'zh-cn':'从vChain解耦oracle模块'
 		}
 	},{
 		'year':2017,
-		'month':'Oct',
+		'month':'Sep',
 		'content': {
-			'en':'Project of Pallet start',
-			'zh-tw':'正式啟動 Pallet 專案',
-			'zh-cn':'Pallet 项目正式启动'
+			'en':'Release vChain v1.2',
+			'zh-tw':'',
+			'zh-cn':'发布vChain v1.2'
+		}
+	},{
+		'year':2017,
+		'month':'Sep',
+		'content': {
+			'en':'Concept of PalletOne born',
+			'zh-tw':'',
+			'zh-cn':'PalletOne概念诞生'
 		}
 	},{
 		'year':2018,
-		'month':'Jan',
+		'month':'3',
 		'content': {
-			'en':'Pallet bitcoin API release',
-			'zh-tw':'釋出支援比特幣之 Pallet API',
-			'zh-cn':'发布支援比特币的 Pallet API'
+			'en':'Release PalletOne White Paper',
+			'zh-tw':'正式啟動 Pallet 專案',
+			'zh-cn':'发布PalletOne白皮书'
+		}
+	},{
+		'year':2018,
+		'month':'5',
+		'content': {
+			'en':'Release PalletOne Tech Yellow Paper',
+			'zh-tw':'',
+			'zh-cn':'发布PalletOne技术黄皮书'
 			
 		}
 	},{
 		'year':2018,
-		'month':'Feb',
+		'month':'Q2',
 		'content': {
-			'en':'NOW',
-			'zh-tw':'現在',
-			'zh-cn':'现在'
-		},
-		'emph':true
-	},{
-		'year':2018,
-		'month':'Feb',
-		'content': {
-			'en':'Release of Pallet white paper',
-			'zh-tw':'釋出 Pallet 白皮書',
-			'zh-cn':'发布 Pallet 白皮书'
+			'en':'Start PalletOne Development and Open Source',
+			'zh-tw':'',
+			'zh-cn':'开始PalletOne开发并开源'
 		}
 	},{
 		'year':2018,
-		'month':'Feb',
+		'month':'Q3',
 		'content': {
-			'en':'Release demo video of an abstract-level contract',
-			'zh-tw':'釋出泛階合約之操作示範影片',
-			'zh-cn':'发布高阶合约操作的示范影片'
+			'en':'Publish Bitcoin-supported PalletOne Protocol',
+			'zh-tw':'',
+			'zh-cn':'发布支持比特币的PalletOne协议'
 		}
 	},{
 		'year':2018,
-		'month':'Apr',
+		'month':'Q3',
 		'content': {
-			'en':'Spec. release of Pallet.',
+			'en':'Publish Ethereum-supported PalletOne Protocol',
+			'zh-tw':'',
+			'zh-cn':'发布支持以太坊网络的PalletOne协议'
+		}
+	},{
+		'year':2018,
+		'month':'Q4',
+		'content': {
+			'en':'PalletOne Test Network online',
 			'zh-tw':'釋出 Pallet 規格書',
 			'zh-cn':'发布 Pallet 说明书'
 		}
 	},{
-		'year':2018,
-		'month':'May',
+		'year':2019,
+		'month':'Q2',
 		'content': {
-			'en':'POC demo of inter-chain exchange',
-			'zh-tw':'跨鏈交換之可行性驗證展示',
-			'zh-cn':'跨链交换可行性的验证展示'
-		}
-	},{
-		'year':2018,
-		'month':'Q3',
-		'content': {
-			'en':'Beta release of Pallet on Bitcoin.',
-			'zh-tw':'釋出支援比特幣之 Pallet 預覽版',
-			'zh-cn':'发布支援比特币的 Pallet 协议'
-		}
-	},{
-		'year':2018,
-		'month':'Q3',
-		'content': {
-			'en':'Connect Pallet and Ethereum network',
-			'zh-tw':'釋出支援以太坊網路之 Pallet 預覽版',
-			'zh-cn':'发布支援以太坊网路的 Pallet 协议'
-		}
-	},{
-		'year':2018,
-		'month':'Q4',
-		'content': {
-			'en':'Pallet online',
-			'zh-tw':'上線 Pallet 系統',
-			'zh-cn':'Pallet 系统正式上线'
-		}
-	},{
-		'year':2018,
-		'month':'Q4',
-		'content': {
-			'en':'Pallet distribute contract online',
-			'zh-tw':'上線 Pallet 分散式合約',
-			'zh-cn':'Pallet 分散式合约上线'
-		}
-	},{
-		'year':2018,
-		'month':'Q4',
-		'content': {
-			'en':'Pallet arbiter contract online',
-			'zh-tw':'上線 Pallet 仲裁合約',
-			'zh-cn':'Pallet 仲裁合约上线'
+			'en':'PalletOne Test Network online',
+			'zh-tw':'',
+			'zh-cn':'PalletOne底层测试网络上线'
 		}
 	},{
 		'year':2019,
-		'month':'',
+		'month':'Q2',
+		'content': {
+			'en':'PalletOne Test Network online',
+			'zh-tw':'',
+			'zh-cn':'PalletOne系统正式上线'
+		}
+	},{
+		'year':2019,
+		'month':'Q3',
 		'content': {
 			'en':'Connect Pallet to other blockchain',
-			'zh-tw':'使 Pallet 支援更多區塊鏈',
-			'zh-cn':'将 Pallet 支援更多区块链'
+			'zh-tw':'',
+			'zh-cn':'PalletOne将支持更多的区块链'
 		}
 	}
-]
+];
 
 var eventNum = events.length
 var lineWidth = 0.3 // sync with index.css!!
@@ -178,7 +145,7 @@ var eventSize = 1.4 // sync with index.css!!
 var eventMargin = 0.3 // sync with index.css!!
 
 function generateTimeline(){
-	var timeline = $('#timeline>.canvas')
+	var timeline = $('#timeline>.canvas');
 	let newElement
 	let yCursor = 1
 
