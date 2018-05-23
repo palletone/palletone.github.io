@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* 基础样式 */
+body,div,p,table,tr,th,td,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,select,button,textarea,blockquote { margin:0; padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;margin:0; padding:0;}
+body { color: #676a6c; font-family: 'Open Sans', helvetica, arial, sans-serif; font-size:14px; line-height:150%;}
+a { color:#333; text-decoration:none;outline:none;}
+li { list-style:none;}
+img,input { border:0px;vertical-align:middle}
+table { border-collapse:collapse;}
+.clear {clear:both;}
+.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden} 
+.ellipsis{text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.fl {float:left;}
+.fr { float:right;}
+.f12 {font-size:12px;}
+.f16 {font-size:16px;}
+.color6 { color:#666}
+.color9 { color:#999}
+.colorblue{color:#2063AF;}
+.center {text-align:center;}
+.left{float:left;}
+.right{float:right;}
+.bgf7{ background:#f7f7f7;}
+.indent{ text-indent:2em;}
+p {
+    color: #919daf;
+    font-size: 16px;
+	line-height:24px;
+}
+h2 {
+    font-size: 22px;
+    margin: 5px 0 10px 0;
+    color: #252755;
+}
+.wrap1200 {width:1200px; margin:0 auto; overflow:hidden;}
+.container{ overflow:hidden;}
+/*头部*/
+.header{width:100%; min-width:1200px; overflow:hidden;}
+.header .left{width:220px; margin-left:25px; padding-top:10px;}
+.header .right{ font-size:17px; margin:5px 0 0 0;}
+.nav{float:right; margin:0 -15px 15px 0; overflow:hidden; font-size:18px;}
+.nav li{ float:left; padding:15px;}
+.nav li a{color:#3E3A39; display:block; cursor:pointer;}
+.nav li.active a{color:#ff904a;}
+.nav li:hover a{color:#ff904a;}
+.change-btn{
+	border:1px solid #f8d3ba; border-radius:36px; width:110px; height:36px; vertical-align:top; margin-top:-10px; text-align:center; line-height:30px !important; background:url(../images/rate-right.png) no-repeat 90px center; cursor:pointer;
+}
+.header-fix{position:fixed; left:0; top:0; background:#fff; z-index:222;}
+/*底部*/
+.footer{min-width:1200px; background:url(../images/footer_bg.jpg) no-repeat center 20px; color:#8287ec; font-size:14px; padding-top:25px; overflow:hidden;}
+.footer a{color:#8287ec; }
+.email{width:656px; height:115px; background:url(../images/send_bg.png) no-repeat 0 0; margin-left:274px; padding-left:116px; color:#949fb1; font-size:18px; line-height:100px;}
+.send-btn{width:154px; height:56px; float:right; border:none; background:none; cursor:pointer;margin-right: 22px;}
+.f-nav{width:909px; float:right; overflow:hidden;padding:35px 0 20px 0; border-bottom:1px solid #1a1e63;}
+.f-nav .nav{margin-right:36px;}
+.f-nav .left{margin-top:10px;}
+.f-nav .nav li a{color:#8287ec; cursor:pointer; }
+.f-bottom{width:100%; text-align:right;float:right; font-size:12px; color:#3b3f94; line-height:60px;}
+

@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{ color:#171717; font-size:44px; padding:158px 0 199px 82px; line-height:54px;}
+.banner .title{margin-bottom:3%;}
+.banner .title span{color:#2840af;}
+.banner .title span.txt{color:#171717; font-size:40px;}
+.banner .small-title{color:#919daf; font-size:16px;}
+.banner .small-title a{width:151px; height:46px; border-radius:46px; background:#4f73f6; font-size:18px; color:#fff; display:block; text-align:center; line-height:46px; text-decoration:none;}
+
+.g-title{color:#2840af; font-size:36px; margin:60px 0; text-align:center;}
+.g-title small{color:#252755;}
+.vision{margin:0 auto 109px ; padding-top:106px;}
+.zcash{width:1280px; margin:0 auto;}
+.service-list{padding:20px 20px;}
+.features-text {
+	width:475px;
+	float:left;
+  margin: 40px 100px 0 25px;
+}
+.features-text img{padding-bottom:30px; margin-right:20px; float:left;}
+.features-text p {
+    color: #919daf;
+    font-size: 16px;
+}
+.service-list .col-sm-2{
+	width:200px;
+	 float:left;
+	 padding:20px;
+}
+.service-list .services-bg {
+    background: #fff;
+    padding: 20px 15px;
+    height: 219px;
+	text-align:center;
+	box-shadow: 0px 0px 40px rgba(50,65,165,.2);
+}
+.service-list .services-bg img{padding-top:17px;}
+.service-list .services-bg p{ text-align:left;}
+.service-list h2 {
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #252755;
+	margin:25px 0 30px 0;
+}
+.section1{min-width:1200px; background:url(../images/b_bg1.jpg) no-repeat center -4px; overflow:hidden;}
+.section2{min-width:1200px; background:url(../images/b_bg2.jpg) no-repeat top center;overflow:hidden;}
+.section3{min-width:1200px; background:url(../images/b_bg3.jpg) no-repeat top center;overflow:hidden;}
+
+/*Application Scenarios*/
+.Application{position:relative; height:842px;}
+.Application .col-md-3{ position:relative; z-index:1;width:238px; background: #fff;padding: 15px 15px; float:left; margin:0 40px;box-shadow: 0px 0px 40px rgba(50,65,165,.2);}
+.Application .col-md-3 h2{margin:10px 0 20px 0;}
+.Application .col-md-3.middle{width:280px; margin:560px 89px 15px;}
+.Application .col-md-6{ position:absolute; top:30px; left:272px;}
+
+.features-block { margin-top: 40px; overflow:hidden;}
+.features-block .col-lg-6{width:600px; float:left;}
+.features-block .features-text{width:450px; padding:0 20px; margin:0 110px 0 0;}
+.features-block .features-text-right{margin:0 0 0 110px;width:450px; padding:0 20px;}
+.features-block .col-lg-6 h2{margin:80px 0 30px 0;}
+.features-block .col-lg-6 img{ margin:0 auto; display:block;}
+#Features{margin-top:90px;}
+/*timeline*/
+.timeline{margin:110px 0 0;}
+
+.Mentors .col-sm-6{width:550px; float:left;}
+.team-member {
+	margin:0 auto;
+  text-align: center;
+   background:#fff;
+   padding: 25px;
+   height:340px;
+}
+.team-member img {
+  margin: auto;
+}
+.team-member h4{
+	color:#252755;
+	font-size:22px;
+	border-bottom:1px solid #eceef6;
+	padding-bottom:10px;
+	margin:20px 0 10px;
+}
+.team-member .blue-txt{
+	color:#2840af;
+	font-size:18px;
+}
+.Mentors{margin-bottom:30px;}
+.Mentors .team-member{ height:auto; background:none; margin:60px 0 0; text-align:left;}
+.Mentors .team-member h4{border:none; padding-bottom:0; margin-bottom:0; line-height:45px; text-align:center; }
+.Mentors .team-member .blue-txt{line-height:30px;}
+.team{width:1230px; margin:84px auto 90px; padding:20px 0;}
+.team .col-sm-4{width:290px; height:550px; background:#fff; float:left; margin:0 38px 30px;box-shadow:0 0 15px rgba(53,101,253,0.2);}
+.team .col-sm-4 p{ text-align:left;}
+.team .col-sm-4 .team-member .blue-txt{
+	display:inline-block;
+	margin:20px 0 10px;
+}
+.g-title span{color: #252755; font-size:22px; line-height:65px;}
+.testimonials-text{ position:relative; text-align:center; }
+.time-chart{height:541px; background:url(../images/pic_history.png) no-repeat center bottom;}
+.timeline li.time{position:absolute; width:150px; line-height:25px; text-align:left; background:#fff;box-shadow:0 0 15px rgba(53,101,253,0.2);}
+.timeline li.time img.icon-b{ position:absolute; top:140px; left:60px; cursor:pointer;}
+.timeline li.time img.arrow{ position:absolute;bottom:-10px; left:50%;}
+.timeline li.time h2,.timeline li.time p ,.timeline li.time .arrow{display:none;}
+.timeline li.time h2{font-size:18px; margin:0; padding:0 5px;}
+.timeline li.time p{font-size:16px; padding:0 5px;}
+.timeline li.time1{top:190px; left:0;}
+.timeline li.time2{top:160px; left:70px;}
+.timeline li.time3{top:130px; left:140px;}
+.timeline li.time4{top:78px; left:210px;}
+.timeline li.time5{top:40px; left:280px;}
+.timeline li.time6{top:70px; left:350px;}
+.timeline li.time7{top:80px; left:420px;}
+.timeline li.time8{top:70px; left:490px;}
+.timeline li.time9{top:20px; left:560px;}
+.timeline li.time10{top:-20px; left:630px;}
+
+.timeline li.time11{top:-23px; left:700px;}
+.timeline li.time11 h2,.timeline li.time11 p ,.timeline li.time11 .arrow{display:inline-block;}
+.timeline li.time12{top:2px; left:770px;}
+.timeline li.time13{top:35px; left:840px;}
+.timeline li.time14{top:37px; left:910px;}
+.timeline li.time15{top:16px; left:980px;}
+.timeline li.time16{top:-35px; left:1050px;}
+.timeline li.time1 img.icon-b{top:150px; left:60px;}
+.timeline li.time2 img.icon-b{top:150px; left:60px;}
+
+.QA{margin-top:70px;}
+.QA .features-text{height:320px; margin-left:40px;}
+.QA .features-text h2{margin:20px 0 30px 0;}
+.QA .features-text p{ font-size:18px;}
+.vadio{position:relative; height:475px;margin:95px 114px 0 158px; padding:49px 0 0 140px; background:url(../images/radio_bg.png) no-repeat 0 0; cursor:pointer;}
+.vadio .icon-begin{ position:absolute; left:497px; top:214px; margin:0; z-index:999;}
+.video-js .vjs-big-play-button{background:#3d2de5; border:none;}
+
+
+

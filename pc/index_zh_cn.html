@@ -1,0 +1,500 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="keywords" content="调色板,pallet,palletone,跨链,区块链,DAG,陪审团">
+<title>palletone</title>
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link href="css/video-js.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/pc.css" />
+<style type="text/css">
+body,td,th {
+	font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+ui,#qq{display:inline}
+</style>
+</head>
+
+<body>
+<!--ͷ��-->
+<div class="header">
+	<div class="wrap1200">
+        <div class="left">
+            <a href="/"><img src="images/logo.png" width="201" height="38" /></a>
+        </div>
+        <div class="right">
+            <ul class="nav">
+                <li><a  rel="Vision">愿景</a></li>
+                <li><a  rel="Usage">情境</a></li>
+                <li><a  rel="Features">特性</a></li>
+                <li><a  rel="Timeline">蓝图</a></li>
+                <li><a  rel="Team">团队</a></li>
+                <li><a  rel="QA">问答</a></li>
+                <li><input type="btn" class="change-btn" readonly="readonly" onclick="javascript:window.location.href='index.html';" value="English"></button></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section1">
+    <div class="banner">
+        <div class="wrap1200">
+            <div class="title wow zoomIn animated"><span class="txt">高阶分布式共享帐本共治协议</span></div>
+            <div class="small-title wow zoomIn animated" style="color:blue">区块链世界IP协议高性能分布式账本<br><a class="btn-white-paper" href=""  style="float:left; margin-right:30px;">白皮书</a><a class="btn-white-paper" href=""  style="float:left">黄皮书</a></div>
+        </div>
+    </div>
+    <!--vision-->
+    <div class="vision wrap1200" id="Vision">
+        <div class="g-title">愿景</div>
+        <div>
+            <div class="features-text wow fadeInLeft animated">
+                <img src="images/icon_vision1.png" class="fa big-icon pull-left" />
+                <h2>高通用 </h2>
+                <p>通过DAG分布式存储与陪审团共识算法相结合，在存储和计算上均突破了传统区块链的技术限制。</p>
+            </div>
+            <div class="features-text wow fadeInRight animated">
+                <img src="images/icon_vision2.png" class="fa big-icon pull-left" />
+                <h2>用户友好性 </h2>
+                <p>PalletOne旨在建立一个完整的智能合约生态，让开发者、用户和“矿工”都能在PalletOne平台中各取所需。</p>
+            </div>
+			<div class="features-text wow fadeInLeft animated">
+                <img src="images/icon_vision3.png" class="fa big-icon pull-left" />
+                <h2>普遍性 </h2>
+                <p>DApp（分散应用程序）可以同时部署在不同的链上，并且不受底层链的限制。</p>
+            </div>
+			<div class="features-text wow fadeInRight animated">
+                <img src="images/icon_vision4.png" class="fa big-icon pull-left" />
+                <h2>代用货币 </h2>
+                <p>用户在发出指令时不需要编写任何代码，但只需要配置相关参数</p>
+            </div>
+        </div>
+    </div>
+    <div class="zcash" id="Usage">
+        <div class="service-list container">
+            <div class="col-sm-2 wow zoomIn animated">
+                <div class="services-bg">
+                    <img src="images/icon_za.png">
+                    <h2>零币</h2>
+                    <p>通过零知识证明保护用户隐私</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow zoomIn animated">
+                <div class="services-bg">
+                    <img src="images/icon_li.png">
+                    <h2>莱特币</h2>
+                    <p>比特币的改良版</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow zoomIn animated">
+                <div class="services-bg">
+                    <img src="images/icon_et.png">
+                    <h2>以太坊</h2>
+                    <p>以智能合约为基础的虚拟货币</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow zoomIn animated">
+                <div class="services-bg">
+                    <img src="images/icon_bi.png">
+                    <h2>比特币</h2>
+                    <p>最为知名且应用广泛的虚拟货币</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow zoomIn animated">
+                <div class="services-bg">
+                    <img src="images/icon_io.png">
+                    <h2>IOTA</h2>
+                    <p>号称不需要手续费的数字货币</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap1200" id="">
+    	<div class="g-title">PalletOne 使用场境</div>
+        <div class="Application">
+            <div class="col-md-3 text-center wow fadeInLeft animated" style="margin-top:230px;">
+                <div>
+                    <h2>跨链支付</h2>
+                    <p class="text-left">比特币网络中的用户想享受以太坊中的加密猫的游戏乐趣，但他手头并没有以太币，最可行的解决方法是将自己钱包里的部分比特币兑换成以太币，但这需要经过复杂的交易所操作。用户可以利用PalletOne的跨链功能直接使用比特币支付这笔费用，从而避免繁冗的币种兑换和充值提取等操作。</p>
+                </div>
+            </div>
+            <div class="col-md-3 middle text-center wow zoomIn animated">
+                <div>
+                    <h2>支持多支付类型的DApp</h2>
+                    <p class="text-left">用户使用构建在PalletOne上的DApp时，付费方式更加自由灵活：既可以通过PalletOne上支持的通证，又可以选择BTC、ETH，甚至是几种方式的组合。同时，免除了通过交易所进行兑换的繁琐过程。</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center wow fadeInRight animated" style="margin-top:230px;">
+                <div>
+                    <h2>金融工具</h2>
+                    <p class="text-left">PalletOne是共享投资策略的最佳平台。同时用户可以创建自己的ETF。Pallet中的通证（Token）具有高度的灵活性，任何一个用户都可以利用通证工具设计一个由多币种、股票、债券等多种资产组合而成的通证，从而为全世界的投资者创造更多的机会。此外，Pallet提供了完备的通证定义和通证操作集可以确保安全性</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center  wow zoomIn animated">
+                <img src="images/appl_bg.png"  alt="dashboard" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section2 " id="Features">
+<div class="wrap1200">
+	<div class="g-title">PalletOne 特性指南</div>
+    <div class="features-block">
+        <div class="col-lg-6 features-text wow fadeInLeft animated">
+            <h2>多链</h2>
+            <p>PalletOne智能合约支持多链。通过陪审团共识以及适配层，PalletOne智能合约可同时在不同的区块链上运行，用户在不同的区块链上通过调用一个PalletOne智能合约即可进行通证交易，保证了跨链通证交易的分布式、原子操作和不可篡改的特性。</p>
+        </div>
+        <div class="col-lg-6 text-right wow fadeInRight animated">
+            <img src="images/pic_chain.png"  alt="dashboard" class="img-responsive pull-right">
+        </div>
+    </div>
+    <div class="features-block">
+        <div class="col-lg-6 wow fadeInLeft">
+            <img src="images/pic_task.png"  alt="dashboard" class="img-responsive pull-right">            	
+        </div>
+        <div class="col-lg-6 features-text-right wow fadeInRight animated">
+            <h2>多任务</h2>
+            <p>PalletOne智能合约的验证、执行等工作可以由为其专门生成的陪审团完成。陪审团是从候选陪审员中随机选择一定数量的陪审员组成。PalletOne中的智能合约可以通过选择不同陪审团以多任务的方式执行，相较于全网共识的方式，将有效减少网络拥堵。</p>
+
+        </div>
+    </div>
+    <div class="features-block">
+        <div class="col-lg-6 features-text wow fadeInLeft animated">
+            <h2>安全性</h2>
+            <p>PalletOne的安全性体现在两个方面，一是开发的安全性，二是合约执行的安全性。用户在开发对应场景的时候，调用合约模板，只需很少的步骤即可完成DAPP开发。在合约执行方面，PalletOne VM技术作为智能合约编译和执行的核心工具，可以为智能合约提供安全高效的沙盒运行环境。</p>
+        </div>
+        <div class="col-lg-6 text-right wow fadeInRight">
+            <img src="images/pic_security.png"  alt="dashboard" class="img-responsive pull-right">
+        </div>
+    </div>
+    <div class="features-block">
+        <div class="col-lg-6 wow fadeInLeft animated">
+            <img src="images/pic_plat.png"  alt="dashboard" class="img-responsive pull-right">            	
+        </div>
+        <div class="col-lg-6 features-text-right wow fadeInRight">
+            <h2>多语言 & 多平台</h2>
+            <p>·PalletOne支持多语言。开发者可以使用主流的开发语言（比如Java、C++、JS等）开发智能合约，而不需要专门去学习一门新的合约开发语言，比如像以太坊的Solidity语言。PalletOne支持多语言可以使更多的开发者加入区块链的应用生态。
+</p><p>·PalletOne VM作为智能合约编译和执行的核心工具, 和底层的操作系统完全解耦，使得PalletOne智能合约适用于windows、Linux、Mac等多种平台类型。</p>
+
+        </div>
+    </div>
+    <div class="timeline" id="Timeline">
+        <div class="g-title">
+           PalletOne 发展蓝图
+        </div>
+        <div class="testimonials-text time-chart wow fadeIn animated">
+           <ul>
+                <li class="time time1 wow fadeIn animated">
+                    <h2>2015 Oct</h2>
+                    <p>vChain（内部项目）概念的诞生</p>
+                    <img class="icon-b" src="images/icon-b5.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time2">
+                    <h2>2016 Apr</h2>
+                    <p>发布vChain说明</p>
+                    <img class="icon-b" src="images/icon-b4.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+
+                <li class="time time3">
+                    <h2>2016 Nov</h2>
+                    <p>更新vChain-compat-openssl.spec</p>
+                    <img class="icon-b" src="images/icon-b4.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time4">
+                    <h2>2017 Feb</h2>
+                    <p>开发vChain浏览器</p>
+                    <img class="icon-b" src="images/icon-b3.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+                <li class="time time5">
+                    <h2>2017 May</h2>
+                    <p>根据Ethereum EVM修改vChain EVM</p>
+                    <img class="icon-b" src="images/icon-b3.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time6">
+                    <h2>2017 June</h2>
+                    <p>从vChain解耦oracle模块</p>
+                    <img class="icon-b" src="images/icon-b3.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+                <li class="time time7">
+                    <h2>2017 Sep</h2>
+                    <p>发布vChain v1.2</p>
+                    <img class="icon-b" src="images/icon-b3.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time8">
+                    <h2>2017 Sep</h2>
+                    <p>PalletOne概念诞生</p>
+                    <img class="icon-b" src="images/icon-b3.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+                <li class="time time9">
+                    <h2>2018 Mar</h2>
+                    <p>发布PalletOne白皮书</p>
+                    <img class="icon-b" src="images/icon-b2.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time10">
+                    <h2>2018 May</h2>
+                    <p>发布PalletOne技术黄皮书</p>
+                    <img class="icon-b" src="images/icon-b2.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+                <li class="time time11">
+                    <h2>2018 Q2</h2>
+                    <p>开始PalletOne开发并开源</p>
+                    <img class="icon-b" src="images/icon-b2.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time12">
+                    <h2>2018 Q3</h2>
+                    <p>发布支持比特币的PalletOne协议</p>
+                    <img class="icon-b" src="images/icon-b2.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+                <li class="time time13">
+                    <h2>2018 Q3</h2>
+                    <p>发布支持以太坊网络的PalletOne协议</p>
+                    <img class="icon-b" src="images/icon-b2.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time14">
+                    <h2>2018 Q4</h2>
+                    <p>PalletOne底层测试网络上线</p>
+                    <img class="icon-b" src="images/icon-b2.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+                <li class="time time15">
+                    <h2>2019 Q2</h2>
+                    <p>PalletOne系统正式上线</p>
+                    <img class="icon-b" src="images/icon-b1.png">
+                    <img class="arrow" src="images/arrow-right.png">
+                </li>
+                <li class="time time16">
+                    <h2>2019 Q3</h2>
+                    <p>PalletOne将支持更多的区块链</p>
+                    <img class="icon-b" src="images/icon-b1.png">
+                    <img class="arrow" src="images/arrow-left.png">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="wrap1200" id="Mentors">
+	<div class="g-title">
+       引航者
+    </div>
+    <div class="Mentors container">
+        <div class="col-sm-6 wow fadeInLeft animated" style="background:url(images/yuandao.png) no-repeat center top;margin-right:50px; padding-top:175px;">
+            <div class="team-member">
+                <h4>元道<br><span class="blue-txt">思想者</span></h4>
+                
+                <p  style="padding:7px 20px 20px">通证派创始人、中关村区块链产业联盟理事长，区块链和通证的倡导者，1991 年毕业于清华大学电机工程系，从事互联网行业 20 余年，互联网信息基础设施领军人物。</p>
+            </div>
+        </div>
+        <div class="col-sm-6 wow fadeInRight animated" style="background:url(images/ligong.png) no-repeat center top; margin-left:50px;  padding-top:175px;">
+            <div class="team-member">
+                <h4>宫力博士<br><span class="blue-txt">P原Mozilla公司全球总裁</span></h4>
+                
+                <p  style="padding:7px 20px 20px">前微软中国研发集团副总裁、世界五百强Sun公司中国工程研究院院长.清华大学计算机科学学士、硕士，剑桥大学计算机科学博士，曾任SUN公司Java首席安全架构师，设计了今天为数亿企业和消费者用户所广泛使用的Java平台安全架构。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section3 container" id="Team">
+	 <div class="g-title">团队</div>
+     <div class="team container">
+        <div class="col-sm-4 wow fadeInLeft animated">
+            <div class="team-member">
+                <img src="images/zhu.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>朱佩江<br><span class="blue-txt">PalletOne联合创始人
+</span></h4>
+                
+                <p class="text-left">中关村区块链产业联盟秘书长1998年毕业于清华大学电子工程系，长期从事网络、视频及区块链技术研究，曾担任某国家级研究机构研究所副所长，教授级高级工程师。 </p>
+            </div>
+        </div>
+        <div class="col-sm-4" style="margin:0 100px">
+            <div class="team-member">
+                <img src="images/jones.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>Matthew Jones <br><span class="blue-txt">PalletOne联合创始人</span></h4>
+                
+                <p class="text-left">微软公司 商业策划 获得美国德克萨斯州大学奥斯汀分校硕士学位 </p>
+            </div>
+        </div>
+        <div class="col-sm-4 wow fadeInRight animated">
+            <div class="team-member">
+                <img src="images/chen.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>陈振国<br><span class="blue-txt">PalletOne团队专家</span><br />&emsp;</h4>
+                
+                <p class="text-left">曾任威睿科技联合创始人&CTO TelTel 首席战略官 Datamite Technology 联合创始人 & CTO 20年产品设计及运营经验</p>
+            </div>
+        </div>
+		<div class="col-sm-4 wow fadeInLeft animated">
+            <div class="team-member">
+                <img src="images/chenyu.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>陈昱博士<br><span class="blue-txt">PalletOne团队专家</span><br />&emsp;</h4>
+                <p class="text-left">1998 年获得美国南卡罗来纳大学数学博士, 随后担任美国 Summus Inc 的研究科学家，主要为美国国防研究部门，如 ONR、Sandia National Labs 等开发图像处理和模式识别方面的算法及软件</p>
+            </div>
+        </div>
+		<div class="col-sm-4" style="margin:0 100px">
+            <div class="team-member">
+                <img src="images/liujian.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>刘健博士<br><span class="blue-txt">国防科技大学博士 </span><br />&emsp;</h4>
+				<p class="text-left">长期从事操作系统，分布式计算，超级计算机等方面开发和研究 </p>
+            </div>
+        </div>
+		<div class="col-sm-4 wow fadeInRight animated">
+            <div class="team-member">
+                <img src="images/zengyi.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>曾毅<br><span class="blue-txt">开发工程师</span><br />&emsp;</h4>
+                
+                <p class="text-left">数据库专家，《SQL Server数据库技术大全》作者，长期从事数据库应用、数据仓库、大数据和区块链应用开发和研究。拥有Fabric开发经验。</p>
+            </div>
+        </div>
+		<div class="col-sm-4 wow fadeInLeft animated">
+            <div class="team-member">
+                <img src="images/wangcuicui.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>王翠翠<br><span class="blue-txt">北京邮电大学硕士 </span><br />&emsp;</h4>
+				<p class="text-left">曾任职于百度及某国家主管部门下属研究机构，从事网络安全、网络流量分析、区块链等领 域研究和相关标准的制定工作，发表相关论文及专利十余篇。 </p>
+            </div>
+        </div>
+    </div>
+	<div class="g-title">顾问</div>
+     <div class="team container">
+        <div class="col-sm-4 wow fadeInLeft animated" style="margin-left:250px;">
+            <div class="team-member">
+                <img src="images/mengyan.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>孟岩<br><span class="blue-txt">知名开源社区CSDN副总裁
+</span></h4>
+                
+                <p class="text-left">通证派发起人之一 </p>
+            </div>
+        </div>
+        <div class="col-sm-4" style="margin:0 100px">
+            <div class="team-member">
+                <img src="images/AkiyoshiFukumitsu.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>AkiyoshiFukumitsu  <br><span class="blue-txt">Hivelocity创始人 & CEO</span></h4>
+                
+                <p class="text-left">20 余年 web 开发、线上市场推广及商务解决方案的工作经验；Hivelocity 创始人 & CEO </p>
+            </div>
+        </div>
+        
+    </div>
+	<div class="g-title">投资人</div>
+     <div class="team container">
+        <div class="col-sm-4 wow fadeInLeft animated">
+            <div class="team-member">
+                <img src="images/yuandao2.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>元道<br><span class="blue-txt">思想者
+</span></h4>
+                
+                <p class="text-left">通证派创始人、中关村区块链产业联盟理事长，区块链和通证的倡导者，1991 年毕业于清华大学电机工程系，从事互联网行业 20 余年，互联网信息基础设施领军人物。</p>
+            </div>
+        </div>
+        <div class="col-sm-4" style="margin:0 100px">
+            <div class="team-member">
+                <img src="images/caiwensheng.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>蔡文胜  <br><span class="blue-txt">美图创始人,执行董事及董事长</span></h4>
+                
+                <p class="text-left">亦担任Meitu Holdings及Meipai Ltd的董事;中国互联网及技术行业的企业家及著名投资人。隆领投资股份有限公司的创始人及董事长。</p>
+            </div>
+        </div>
+		<div class="col-sm-4 wow fadeInRight animated">
+            <div class="team-member">
+                <img src="images/zhangjian.png"  class="img-responsive img-circle img-small" alt="">
+                <h4>张健  <br><span class="blue-txt">区块链行业的早期先驱</span></h4>
+                
+                <p class="text-left">Bochen的创始人兼董事长，前Huobi CTO。《区块链：定义金融和经济的未来》的作者。《金融科技：重建未来金融生态》的联合作者。</p>
+            </div>
+        </div>
+        
+    </div>
+	
+</div>	
+
+	<div class="g-title">
+      投资机构<br>
+    </div>
+    <div class="testimonials-text wow bounceIn animated">
+        <img src="images/funds.png">
+    </div>
+</div>
+<div class="wrap1200 QA" id="QA">
+    <div class="g-title">问答</div>
+    <div class="row">
+        <div class="col-lg-6 features-text wow fadeInUp animated" style="width:590px; margin-right:50px">
+            <h2>与其他跨链解决方案的不同？</h2>
+            <p>大多数常见的跨链方案建立在对应于每条链的连接器上，一个连接器可能是一条针对相同共识机制跨链连接的公有链。与之对应的是 PalletOne 的跨链方式，PalletOne 通过一个轻量型，与区块链分离的高阶合约执行层连接不同的区块链。 而共识则是由被选出执行合约的陪审团成员达成。负责执行合约的陪审团保有合约的状态。</p>
+        </div>
+        <div class="col-lg-6 features-text wow fadeInUp animated" style="width:490px; margin:40px 0 0 10px;">
+            <h2>palletOne支持哪些区块链？</h2>
+            <p>很多的区块链项目都是从比特币和以太坊分叉出来的。因此，我们将会优先支持比特币和以太坊，之后会很快的支持其他区块链。我们也同样欢迎社区的开发者加入我们，共同开发和连接不同的区块链。</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 features-text wow fadeInUp animated" style="width:590px; margin-right:50px; height:auto;">
+            <h2>什么是合约的分离</h2>
+            <p>合约分离意味着合约的执行会从下方的区块链分离开而由 PalletOne 执行。合约经过执行验证后，合约的信息将会存储到陪审团成员内部和/或合约涉及的区块链中。</p>
+        </div>
+        <!-- <div class="col-lg-6 features-text wow fadeInUp animated" style="width:490px; margin:40px 0 0 10px; height:auto;"> -->
+            <!-- <h2>是否有展示PalletOne操作的影片</h2> -->
+            <!-- <p>可以观看下方非正式版的解释影片</p> -->
+        <!-- </div> -->
+    </div>
+</div>
+<!-- <div class="wrap1200"> -->
+	<!-- <div class="vadio"> -->
+    	<!-- <!--<img src="images/radio.jpg" />--> -->
+        <!-- <video id="my-video" class="video-js" controls preload="auto" width="791" height="425" -->
+		  <!-- poster="images/radio.jpg" data-setup="{}"> -->
+        <!-- <source src="http://jq22com.qiniudn.com/jq22-sp.mp4" type="video/mp4"> -->
+        <!-- <p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a> </p> -->
+      <!-- </video> -->
+        <!-- <!--<img src="images/icon_radio.png" class="icon-begin" />--> -->
+    <!-- </div> -->
+<!-- </div> -->
+<div class="g-title">联系方式</div>
+<div class="footer">
+	<div class="wrap1200">
+        <div class="email"><span>contact@pallet.one</span><input type="button" class="send-btn" /></div>
+        <div class="f-nav">
+            <div class="left">
+                <a href="/"><img src="images/f-logo.png" style="margin-top:-85px;" width="150" height="150"/></a>
+            </div>
+            <div class="right">
+                <ul class="list-inline pull-right" >
+                    <li id="qq">
+						<a href="#"><img src="images/icon-bird.png"  width="30" height="30"></a>
+                    </li>
+                    <li id="qq">
+						<a href="#"><img src="images/icon-f.png"  width="30" height="30"></a>
+                    </li>
+					<li id="qq">
+						<a href="#"><img src="images/telegram.png"  width="30" height="30"></a>
+                    </li>
+                    <li id="qq">
+						<a href="#"><img src="images/wechat.png"  width="30" height="30"></a>
+                    </li>
+					<li id="qq">
+						<a href="#"><img src="images/github.png"  width="30" height="30"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="f-bottom" style="color:gray">PalletOne 仅通过 http://pallet.one、@pallet.one 邮箱与在此公告的社群媒体帐号发布官方信息，其他可能为虚假信息。</div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script src="js/wow.min.js" ></script>
+<script language="javascript" type="text/javascript" src="js/swfobject.js"></script>
+<script src="js/video.min.js"></script> 
+<script src="http://vjs.zencdn.net/5.19/lang/zh-CN.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
