@@ -47,3 +47,11 @@ $(window).scroll(function(){
 	$("#navbar").removeClass("in");
 	$("#navbar").attr("aria-expanded","false");
 })
+
+$(function(){
+    $("#wx").hover(function(){
+        $('#showWx').fadeIn();
+    },function(){
+        $('#showWx').fadeOut();
+    });
+})

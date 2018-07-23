@@ -52,7 +52,8 @@ h2 {
 .footer a{color:#8287ec; }
 .email{width:656px; height:115px; background:url(../images/send_bg.png) no-repeat 0 0; margin-left:274px; padding-left:116px; color:#949fb1; font-size:18px; line-height:100px;}
 .send-btn{width:154px; height:56px; float:right; border:none; background:none; cursor:pointer;margin-right: 22px;}
-.f-nav{width:909px; float:right; overflow:hidden;padding:35px 0 20px 0; border-bottom:1px solid #1a1e63;}
+/*.f-nav{width:909px; float:right; overflow:hidden;padding:35px 0 20px 0; border-bottom:1px solid #1a1e63;}*/
+.f-nav{width:909px; float:right;padding:35px 0 20px 0; border-bottom:1px solid #1a1e63;}
 .f-nav .nav{margin-right:36px;}
 .f-nav .left{margin-top:10px;}
 .f-nav .nav li a{color:#8287ec; cursor:pointer; }

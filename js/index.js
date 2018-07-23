@@ -68,3 +68,11 @@ $(".timeline li").hover(function(){
 
 },function(){
 })
+
+ $(function(){
+     $("#wx").hover(function(){
+         $('#showWx').fadeIn();
+     },function(){
+         $('#showWx').fadeOut();
+     });
+ })
