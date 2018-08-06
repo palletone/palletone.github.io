@@ -76,3 +76,10 @@ $(".timeline li").hover(function(){
          $('#showWx').fadeOut();
      });
  })
+ $(function(){
+     $(".team-member").hover(function(){
+         $(this).find(".tex").fadeIn();
+     },function(){
+         $(this).find(".tex").fadeOut();
+     });
+ })
