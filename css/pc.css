@@ -89,14 +89,14 @@
 	margin:20px 0 10px;
 }
 .team-member .blue-txt{
-	color:#2840af;
-	font-size:18px;
+	color:#999;
+	font-size:16px;
 }
 .Mentors{margin-bottom:30px;}
 .Mentors .team-member{ height:auto; background:none; margin:60px 0 0; text-align:left;}
 .Mentors .team-member h4{border:none; padding-bottom:0; margin-bottom:0; line-height:45px; text-align:center; }
 .Mentors .team-member .blue-txt{line-height:30px;}
-.team{width:1230px; margin:84px auto 90px; padding:20px 0;}
+.team{width:1230px; margin:84px auto 0px; padding:20px 0;}
 .team .col-sm-4{width:290px; /*height:550px;*/ background:#fff; float:left; margin:0 38px 30px;box-shadow:0 0 15px rgba(53,101,253,0.2);}
 .team .col-sm-4 p{ text-align:left;}
 .team .col-sm-4 .team-member .blue-txt{

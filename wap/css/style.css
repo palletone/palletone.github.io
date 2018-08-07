@@ -26,7 +26,7 @@ a.navy-link:hover {
 }
 section p {
   color: #919daf;
-  font-size: 14px;
+  font-size: 12px;
   line-height:21px;
 }
 .section-bg-1{
@@ -343,11 +343,11 @@ h1.g-title small{color:#252755; font-weight:bold;}
 }
 .team-member {
 	width:100%;
-	margin:-63px auto 0;
+	/*margin:-63px auto 0;*/
   text-align: center;
    background:#fff;
    padding: 15px;
-   height:392px;
+   height:480px;
     box-shadow:0 0 25px rgba(53,101,253,0.2);
 }
 .team-member img {
@@ -360,8 +360,8 @@ h1.g-title small{color:#252755; font-weight:bold;}
 	padding-bottom:10px;
 }
 .team-member .blue-txt{
-	color:#2840af;
-	font-size:18px;
+	color:#999;
+	font-size:16px;
 }
 .Mentors .team-member{width:100%; height:auto; background:none;box-shadow:0 0 0 rgba(53,101,253,0);}
 .Mentors .team-member h4{border:none; padding-bottom:0; margin-bottom:0; line-height:35px; }
@@ -774,7 +774,7 @@ fieldset[disabled] .btn-primary.active {
   margin-bottom: 20px;
 }
 .m-b-lg {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 .m-b-xl {
   margin-bottom: 40px;
