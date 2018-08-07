@@ -838,7 +838,7 @@ fieldset[disabled] .btn-primary.active {
 .footer{background:#15184f; padding:10% 0;}
 .footer .list-inline img{width:100%; height:auto;}
 .footer .list-inline li{width:40px;}
-.testimonials-text{background:url(../../images/time.png) no-repeat center; background-size:auto 100%; overflow:hidden; margin-top:20px;}
+.testimonials-text{/*background:url(../../images/time.png) no-repeat center;*/ background-size:auto 100%; overflow:hidden; margin-top:20px;}
 .testimonials-text .left{ position:relative; width:50%; border-right:2px solid #5c9afd;}
 .testimonials-text .right{ position:relative;width:50%;}
 .testimonials-text h2{color:#252658; font-weight:bold; font-size:14px; margin-top:0;}

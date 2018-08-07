@@ -23,9 +23,9 @@ new WOW().init();
 //导航切换
 $(".navbar-toggle").click(function(){
 	if($("#navbar").hasClass("in")){
-		$(this).find("img").attr("src","images/icon-older.png");
+		$(this).find("img").attr("src","../images/icon-older.png");
 	}else{
-		$(this).find("img").attr("src","images/icon-older-c.png");
+		$(this).find("img").attr("src","../images/icon-older-c.png");
 	}
 })
 //合作伙伴轮播
