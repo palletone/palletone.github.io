@@ -30,7 +30,7 @@ section p {
   line-height:21px;
 }
 .section-bg-1{
-	background:url(../images/b_bg1.jpg) no-repeat center 65px; background-size:100% auto;
+	background:url(../../images/b_bg1.jpg) no-repeat center 65px; background-size:100% auto;
 }
 address {
   font-size: 13px;
@@ -170,7 +170,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
   background: url('../img/header_four.jpg') 50% 0 no-repeat;
 }
 .change-btn{
-	border:1px solid #f8d3ba; border-radius:36px; width:110px; height:36px; vertical-align:top; margin-top:20px; text-align:center; line-height:30px !important; background:url(../images/rate-right.png) no-repeat 90px center; cursor:pointer;
+	border:1px solid #f8d3ba; border-radius:36px; width:110px; height:36px; vertical-align:top; margin-top:20px; text-align:center; line-height:30px !important; background:url(../../images/rate-right.png) no-repeat 90px center; cursor:pointer;
 }
 .banner{color:#171717; font-size:24px; padding:18% 0 9%; line-height:30px; text-align:center; margin-top:70px;}
 .banner .title{margin-bottom:3%;}
@@ -838,7 +838,7 @@ fieldset[disabled] .btn-primary.active {
 .footer{background:#15184f; padding:10% 0;}
 .footer .list-inline img{width:100%; height:auto;}
 .footer .list-inline li{width:40px;}
-.testimonials-text{background:url(../images/time.png) no-repeat center; background-size:auto 100%; overflow:hidden; margin-top:20px;}
+.testimonials-text{background:url(../../images/time.png) no-repeat center; background-size:auto 100%; overflow:hidden; margin-top:20px;}
 .testimonials-text .left{ position:relative; width:50%; border-right:2px solid #5c9afd;}
 .testimonials-text .right{ position:relative;width:50%;}
 .testimonials-text h2{color:#252658; font-weight:bold; font-size:14px; margin-top:0;}
@@ -886,5 +886,5 @@ fieldset[disabled] .btn-primary.active {
 .swiper-pagination-bullet{width:10px; height:10px; background:#fff; border:2px solid #bad1e7; opacity:1;}
 .swiper-pagination-bullet-active{width:10px; height:10px; background:#fff; border:3px solid #3a9eff;}
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom:0;}
-.team-section{ background:url(../images/b_bg3.jpg) no-repeat 0 0; background-size:100% auto;}
-.section-bg-2{ background:url(../images/b_bg2.jpg) no-repeat 0 0; background-size:100% auto;}
+.team-section{ background:url(../../images/b_bg3.jpg) no-repeat 0 0; background-size:100% auto;}
+.section-bg-2{ background:url(../../images/b_bg2.jpg) no-repeat 0 0; background-size:100% auto;}
