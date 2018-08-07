@@ -37,7 +37,7 @@ address {
 }
 h1 {
   margin-top: 30px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   font-size: 30px;
   font-weight: 200;
 }
@@ -347,7 +347,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
   text-align: center;
    background:#fff;
    padding: 15px;
-   height:480px;
+   height:462px;
     box-shadow:0 0 25px rgba(53,101,253,0.2);
 }
 .team-member img {
@@ -361,7 +361,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
 }
 .team-member .blue-txt{
 	color:#999;
-	font-size:16px;
+	font-size:12px;
 }
 .Mentors .team-member{width:100%; height:auto; background:none;box-shadow:0 0 0 rgba(53,101,253,0);}
 .Mentors .team-member h4{border:none; padding-bottom:0; margin-bottom:0; line-height:35px; }
