@@ -1,676 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="keywords" content="pallet,palletone,crosschain,blockchain,DAG,Jury">
-    <meta name="description" content="PalletOne，是由来自硅谷、清华大学、早稻田大学等多位技术带头人，历时4年，数次迭代打造的跨链项目，旨在赋能全球顶尖技术高手联合开发区块链世界的IP协议，是一个具有超高性能“无链”之“公链”。">
-    <meta name="keywords" content="PalletOne,pallet,跨链,调色板">
-    <meta name="author" content="">
-    <title>PalletOne</title>
-    <style>
-        .form-group{
-            position: relative;
-        }
-        .form-group .sps{
-            position: absolute;
-            display: block;
-            width:auto;
-            height:74%;;
-            top:18%;
-            left:12px;
-        }
-        .form-group .sps img{
-            width: auto;
-            height:100%;
-        }
-    </style>
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min-1.css"  rel="stylesheet">
-
-    <!-- Animation CSS -->
-    <link href="css/animate.min.css"  rel="stylesheet">
-
-    <link href="css/font-awesome.min-1.css"  rel="stylesheet">
-    <link rel="stylesheet" href="css/swiper.min.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css"  rel="stylesheet">
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?bfd82459b86169e726644f1b748de018";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-        </script>        
-</head>
-<body id="page-top">
-<div class="navbar-wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <img src="../images/icon-older.png" class="img-responsive" style="width:30px;">
-                    </button>
-                    <a class="navbar-brand" href="#"><img class="logo" src="../images/logo.png" /></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#Vision">Vision</a></li>
-                        <li><a class="page-scroll" href="#Usage">Usage</a></li>
-                        <li><a class="page-scroll" href="#pallet">Features</a></li>
-                        <li><a class="page-scroll" href="#Timeline">Timeline</a></li>
-                        <li><a class="page-scroll" href="#Team">Team</a></li>
-                        <li><a class="page-scroll" href="#QA">Q&A </a></li>
-                        <li><a  href="http://palletone.club/forum.php?mod=forumdisplay&fid=73" target="_blank">Announcement</a></li>
-                        <li><a class="page-scroll" href="index_zh_cn.html">中文 </a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-</div>
-<div class="section-bg-1 container">
-    <!--banner-->
-    <div class="banner container">
-        <div class="title wow zoomIn"><span class="txt">Protocol for Abstract-Level <span style="color:#2840af;">Ledger Ecosystem</span></span></div>
-        <div class="small-title wow zoomIn">IP Protocol for Future Internet of Values<br>
-            <a class="btn-white-paper" href="../doc/PalletOne_whitepaper_zh-cn.pdf" style="margin-right:10px;" >White Paper</a>
-            <a class="btn-white-paper" href="../doc/PalletOne_yellowpaper_zh-cn.pdf" style="margin-right:10px;">Yellow Paper</a>
-            <a class="btn-white-paper" href="../doc/PalletOne_economy_whitepaper_zh-cn.pdf" style="width: 185px;">Economy White Paper</a>
-        </div>
-    </div>
-    <!--vision-->
-    <section class="features" id="Vision">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="g-title">Vision</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-5 features-text">
-                <img src="../images/icon_vision1.png" class="fa big-icon pull-left" />
-                <h2>Capacity </h2>
-                <p>Combining the DAG with the jury consensus, it breaks through the technical limits of traditional blockchains both in storage and computing.</p>
-            </div>
-            <div class="col-lg-5 col-lg-offset-2 features-text">
-                <img src="../images/icon_vision2.png" class="fa big-icon pull-left" />
-                <h2>Ecosystem </h2>
-                <p>PalletOne aims to establish a complete smart contract ecosystem that allows developers, users, and "miners" to gain incentive or pay.</p>
-            </div>
-			<div class="col-lg-5 features-text">
-                <img src="../images/icon_vision3.png" class="fa big-icon pull-left" />
-                <h2>Universality </h2>
-                <p>DApp (Decentralized Application) can be deployed on various chains at the same time and is not limited by the underlying chain.</p>
-            </div>
-            <div class="col-lg-5 col-lg-offset-2 features-text">
-                <img src="../images/icon_vision4.png" class="fa big-icon pull-left" />
-                <h2>Token Model</h2>
-                <p>users do not need to write any code when issuing a token, but only need to configure the relevant parameters</p>
-            </div>
-        </div>
-    </section>
-    <section id="Usage" class="container services">
-        <div class="row">
-            <div class="col-sm-2 col-xs-6 wow zoomIn animated">
-                <div class="services-bg">
-                    <img src="../images/icon_za.png">
-                    <h2>Zcash</h2>
-                    <p>Using zero knowledge proof to provide enhanced privacy</p>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6 wow zoomIn animated">
-                <div class="services-bg">
-                    <img src="../images/icon_li.png">
-                    <h2>Litecoin</h2>
-                    <p>Coin refined from Bitcoin</p>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6 wow zoomIn animated">
-                <div class="services-bg">
-                    <img src="../images/icon_et.png">
-                    <h2>Ethereum</h2>
-                    <p>A cryptocurrency featuring smart contract</p>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6 wow zoomIn animated">
-                <div class="services-bg">
-                    <img src="../images/icon_bi.png">
-                    <h2>Bitcoin</h2>
-                    <p>Most widely used cryptocurrency</p>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6 wow zoomIn animated">
-                <div class="services-bg">
-                    <img src="../images/icon_io.png">
-                    <h2>IOTA</h2>
-                    <p>A cryptocurrency featuring zero transaction fee</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<div class="section-bg-2 container">
-	<section  class="features" id="pallet">
-    	<div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="g-title">PalletOne Technology Advantages</h1>
-            </div>
-        </div>
-        <div class="row features-block">
-        	<div class="col-lg-6 text-right wow fadeInRight">
-                <img src="../images/pic_chain.png"  alt="dashboard" class="img-responsive pull-right" style="width:60%; margin:0 20%;">
-            </div>
-            <div class="col-lg-6 features-text wow fadeInLeft">
-                <h2>Multi-Chain</h2>
-                <p>PalletOne smart contracts support multi-chain. Through the Jury consensus and adaptation layer, PalletOne smart contracts can run on different blockchains at the same time. PalletOne smart contract can interact with diﬀerent blockchains at the same time, so users can trade tokens from diﬀerent blockchains in one PalletOne contract invocation to make the inter-chain token exchange distributed, atomic, and immutable.</p>
-            </div>
-        </div>
-        <div class="row features-block">
-            <div class="col-lg-6 features-text wow fadeInLeft">
-                <img src="../images/pic_task.png"  alt="dashboard" class="img-responsive pull-right">            	
-            </div>
-            <div class="col-lg-6 wow fadeInRight">
-                <h2>Multi-Task</h2>
-                <p>The verification, execution, etc. of the PalletOne smart contract can be done by the Jury specifically created for it. The Jury is composed of a group of jurors at random selected from the candidate jurors randomly. Smart contracts in PalletOne can be implemented by selecting different juries in a multi-tasking manner. Compared with the whole-network consensus approach, PalletOne network congestion will be effectively reduced.</p>
-
-            </div>
-        </div>
-        <div class="row features-block">
-        	<div class="col-lg-6 text-right wow fadeInRight">
-                <img src="../images/pic_security.png"  alt="dashboard" class="img-responsive pull-right">
-            </div>
-
-            <div class="col-lg-6 features-text wow fadeInLeft">
-                <h2>Security</h2>
-                <p>PalletOne's security is reflected in two aspects, one is the security of development, and the other is the security of contract execution. When a user develops a corresponding scene contract, he/she only needs to call a standard contract and complete DAPP development in a few steps. PalletOne VM can provide a safe and efficient sandbox operating environment for smart contracts.</p>
-            </div>
-        </div>
-        <div class="row features-block">
-            <div class="col-lg-6 features-text wow fadeInLeft">
-                <img src="../images/pic_plat.png"  alt="dashboard" class="img-responsive pull-right">            	
-            </div>
-            <div class="col-lg-6 wow fadeInRight">
-                <h2>Multi-Language & Multi-Platform</h2>
-                <p>· DApp developers of PalletOne can develop smart contracts using mainstream development languages without having to learn a new contract development language.
-</p><p>· PalletOne VM is completely decoupled from the underlying operation system, which allow PalletOne smart contract adapt to windows, Linux, Mac as well as other types of platform.</p>
-
-            </div>
-        </div>
-    </section>
-</div>
-<section id="Timeline" class="navy-section testimonials">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center wow zoomIn">
-                <h1 class="g-title">
-                   Timeline
-                </h1>
-                <div class="testimonials-text text-left">
-                    <div class="left pull-left">
-                    	<ul>
-                        	<li>
-                            	<h2>2015 Oct</h2>
-                                <p>vChain (internal project) Con-cept born</p>
-                                <img src="../images/icon_y.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                            <li>
-                            	<h2>2016 Nov</h2>
-                                <p>Update vChain-compat-openssl.spec</p>
-                                <img src="../images/icon_g.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                            <li>
-                            	<h2>2017 May</h2>
-                                <p>Modify vChain EVM from Eth-ereum EVM</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                            <li>
-                            	<h2>2017 Sep</h2>
-                                <p>Release vChain v1.2</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                            <li>
-                            	<h2>2018 Mar</h2>
-                                <p>Release PalletOne White Paper</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                            <li>
-                            	<h2>2018 Q2</h2>
-                                <p>PalletOne Development and Open Source</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                            <li>
-                            	<h2>2018 Q3</h2>
-                                <p>Publish Ethereum-supported PalletOne Protocol</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                            <li>
-                            	<h2>2019 Q2</h2>
-                                <p>PalletOne MainNet online</p>
-                                <img src="../images/icon_bb.png">
-                                <img class="arrow" src="../images/arrow-right.png">
-                            </li>
-                        </ul>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="keywords" content="pallet,palletone,crosschain,blockchain,DAG,Jury">
+        <meta name="description" content="PalletOne，是由来自硅谷、清华大学、早稻田大学等多位技术带头人，历时4年，数次迭代打造的跨链项目，旨在赋能全球顶尖技术高手联合开发区块链世界的IP协议，是一个具有超高性能“无链”之“公链”。">
+        <meta name="keywords" content="PalletOne,pallet,跨链,调色板">
+        <meta name="author" content="">
+        <title>PalletOne</title>
+        <style>.form-group{ position: relative; } .form-group .sps{ position: absolute; display: block; width:auto; height:74%;; top:18%; left:12px; } .form-group .sps img{ width: auto; height:100%; }</style>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min-1.css" rel="stylesheet">
+        <!-- Animation CSS -->
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min-1.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <script>var _hmt = _hmt || []; (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?bfd82459b86169e726644f1b748de018";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();</script>
+    </head>
+    <body id="page-top">
+        <div class="navbar-wrapper">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <img src="../images/icon-older.png" class="img-responsive" style="width:30px;"></button>
+                        <a class="navbar-brand" href="#">
+                            <img class="logo" src="../images/logo.png" /></a>
                     </div>
-                    <div class="right pull-left">
-                    	<ul>
-                        	<li>
-                            	<h2>2016 Apr</h2>
-                                <p>Release illustration about vChain</p>
-                                <img src="../images/icon_g.png">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
                             <li>
-                            	<h2>2017 Feb</h2>
-                                <p>Develop vChain explorer</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                                <a class="page-scroll" href="#Vision">Vision</a></li>
                             <li>
-                            	<h2>2017 June</h2>
-                                <p>Decouple oracle module from vChain</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                                <a class="page-scroll" href="#Usage">Usage</a></li>
                             <li>
-                            	<h2>2017 Sep</h2>
-                                <p>Concept of PalletOne born</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                                <a class="page-scroll" href="#pallet">Features</a></li>
                             <li>
-                            	<h2>2018 May</h2>
-                                <p>Release PalletOne Yellow Paper</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                                <a class="page-scroll" href="#Timeline">Timeline</a></li>
                             <li>
-                            	<h2>2018 Q3</h2>
-                                <p>Publish Bitcoin-supported PalletOne Protocol</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                                <a class="page-scroll" href="#Team">Team</a></li>
                             <li>
-                            	<h2>2018 Q4</h2>
-                                <p>PalletOne TestNet online</p>
-                                <img src="../images/icon_b.png">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                                <a class="page-scroll" href="#QA">Q&A</a></li>
                             <li>
-                            	<h2>2019 Q3</h2>
-                                <p>Connect to more blockchains</p>
-                                <img src="../images/icon_bb.png" style="top:40%;">
-                                <img class="arrow" src="../images/arrow-left.png">
-                            </li>
+                                <a href="http://palletone.club/forum.php?mod=forumdisplay&fid=73" target="_blank">Announcement</a></li>
+                            <li>
+                                <a class="page-scroll" href="index_zh_cn.html">中文</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
-    </div>
-</section>
-<section id="Team" class="team team-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="g-title">Our Team</h1>
+        <div class="section-bg-1 container">
+            <!--banner-->
+            <div class="banner container">
+                <div class="title wow zoomIn">
+                    <span class="txt">Protocol for Abstract-Level
+                        <span style="color:#2840af;">Ledger Ecosystem</span></span>
+                </div>
+                <div class="small-title wow zoomIn">IP Protocol for Future Internet of Values
+                    <br>
+                    <a class="btn-white-paper" href="../doc/PalletOne_whitepaper_zh-cn.pdf" style="margin-right:10px;">White Paper</a>
+                    <a class="btn-white-paper" href="../doc/PalletOne_yellowpaper_zh-cn.pdf" style="margin-right:10px;">Yellow Paper</a>
+                    <a class="btn-white-paper" href="../doc/PalletOne_economy_whitepaper_zh-cn.pdf" style="width: 185px;">Economy White Paper</a></div>
             </div>
-        </div>
-        <div class="row">
-        	<div class="swiper-container">
-                <div class="swiper-wrapper"  style="margin-bottom: 48px;">
-                  <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member" >
-                        <img src="../images/zhupeijiang.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Peijiang Zhu<br><span class="blue-txt">Co-Founder of PalletOne community</span></h4>
-                        
-                        <p class="text-left">Secretary General of Z-Park Blockchain Industry Alliance
-    Engaged in network，video as well as  blockchain technology  research for years.Expert at underlying blockchain technology , consensus algorithm ,token economy ecosystem.  </p>
+            <!--vision-->
+            <section class="features" id="Vision">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="g-title">Vision</h1></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 features-text">
+                        <img src="../images/icon_vision1.png" class="fa big-icon pull-left" />
+                        <h2>Capacity</h2>
+                        <p>Combining the DAG with the jury consensus, it breaks through the technical limits of traditional blockchains both in storage and computing.</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 features-text">
+                        <img src="../images/icon_vision2.png" class="fa big-icon pull-left" />
+                        <h2>Ecosystem</h2>
+                        <p>PalletOne aims to establish a complete smart contract ecosystem that allows developers, users, and "miners" to gain incentive or pay.</p>
+                    </div>
+                    <div class="col-lg-5 features-text">
+                        <img src="../images/icon_vision3.png" class="fa big-icon pull-left" />
+                        <h2>Universality</h2>
+                        <p>DApp (Decentralized Application) can be deployed on various chains at the same time and is not limited by the underlying chain.</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 features-text">
+                        <img src="../images/icon_vision4.png" class="fa big-icon pull-left" />
+                        <h2>Token Model</h2>
+                        <p>users do not need to write any code when issuing a token, but only need to configure the relevant parameters</p>
                     </div>
                 </div>
-                <div class="col-sm-4 swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/jones.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Matthew Jones<br><span class="blue-txt">Co-Founder of PalletOne community</span></h4>
-                        
-                        <p class="text-left">Business Planner,MICROSOFT
-    Acquired master degaree from the university of Texas at Austin.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/zengyi.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Yi Zeng<br><span class="blue-txt">PalletOne Co-founder&CTO</span></h4>
-                        
-                        <p class="text-left">Database expert, author of "SQL Server database technical handbook",work and research in database application, data warehouse, big data and blockchain technology. developed on Fabric.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/wangcuicui.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Cuicui Wang<br><span class="blue-txt">PalletOne Co-founder&System Analyst</span></h4>
-                        
-                        <p class="text-left">M.A. of Beijing University of Posts and Telecommunications,worked in Baidu and subordinate research institution of certain state management department. Expert at research of network security, network traffic analysis as well as blockchain technology.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInRight swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/chenzhenguo.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Kenneth Chen<br><span class="blue-txt">Co-Founder of PalletOne Community</span></h4>
-                        
-                        <p class="text-left">Co-Founder & CTO of GenieNRM
-    Chief Strategy officer of TelTel
-    Co-Founder & CTO of Datamite Technology 20 years experience in products design and management.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/liujian.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Dr.Jian Liu<br><span class="blue-txt">Specialist of PalletOne</span></h4>
-                        <p class="text-left">The doctor of National University of Defense Technology.Engaged in the development and research of operating system, distributed computing, supercomputer and so on for years</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/chenyu.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Dr.Yu Che<br><span class="blue-txt">Specialist of PalletOne</span></h4>
-                        
-                        <p class="text-left">Served as a research scientist in the US Summus Inc, mainly developing algorithms and software for image processing and pattern recognition in the US Defense Research Department, such as ONR and Sandia National Labs.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/shiningning.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Ningning Shi<br><span class="blue-txt">Specialist of PalletOne</span></h4>
-                        
-                        <p class="text-left">Specialist of PalletOne.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/maoxiaojun.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Xiaojun Mao<br><span class="blue-txt">PalletOne CMO</span></h4>
-                        
-                        <p class="text-left">As Senior Market Consultant for Blockchain Industrial Alliance of Zhongguancun , as CEO of STARTHALO (Beijing) Media Technology Co., Ltd. as master of management of MSC, ESC Rennes School of Business, France. Having worked in the Economic Management College for DBA Office of Beijing University of Posts and Telecommunications.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/liudonghai.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Donghai Liu<br><span class="blue-txt">PalletOne director of operation</span></h4>
-                        
-                        <p class="text-left">As Senior Market Director for Blockchain Industrial Alliance of Zhonggancun, as executive director of STARTHALO (Beijing) Media Technology Co., Ltd., and general manager of Harmony Totem (Beijing) Commercial Management Co.,Ltd.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/fengminsen.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Minsen Feng<br><span class="blue-txt">PalletOne Asia-Pacific Marketing Director</span></h4>
-                        
-                        <p class="text-left">PalletOne Asia-Pacific Marketing Director.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/zhaoxiang.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Xiang Zhao<br><span class="blue-txt">PalletOne Asia-Pacific Marketing Director</span></h4>
-                        
-                        <p class="text-left">PalletOne Asia-Pacific Marketing Director.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/zhangzheng.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Zheng Zhang<br><span class="blue-txt">PalletOne manager of operation</span></h4>
-                        
-                        <p class="text-left">COO for STARTHALO (Beijing) Media Technology Co., Ltd.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/yangyu.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Yu Yang<br><span class="blue-txt">PalletOne Distributed Storage DAG Module Leader</span></h4>
-                        
-                        <p class="text-left">Master of Science in Electronics and Communication Engineering, Beijing Jiaotong University. Has many years of development experience, early researcher of Bitcoin, Ethereum and DAG technology.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/guolihua.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Lihua Guo<br><span class="blue-txt">PalletOne senior engineer<br>leader of virtual machine and contract management module</span></h4>
-                        
-                        <p class="text-left">Engaged in software development, architecture design and multi-year technical management of the Internet and broadcasting industry. Has in-depth research and practical development experience on blockchains such as fabric and bitcoin.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/wangjiyou.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Jiyou Wang<br><span class="blue-txt">Leader of the PalletOne code framework and p2p network module</span></h4>
-                        
-                        <p class="text-left">Master of Bohai University. Proficient in C, C++, Go languages, rich experience in DHCPv6, ND, RUI protocols, and high-performance server design and development; Familiar with block chain P2P network design and development.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/yangjie.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Jie Yang<br><span class="blue-txt">PalletOne development engineer<br>storage DAG and memory management</span></h4>
-                        
-                        <p class="text-left">Graduated from Beijing university of chemical technology, majoring in computer science, I have been engaged in the development of the back-end of go language for a long time, and have a deep understanding of the basic elements and design of block chain.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/gouguangquan.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Albert·Gou<br><span class="blue-txt">PalletOne core development engineer<br> leader of consensus algorithm module</span></h4>
-                        
-                        <p class="text-left">Familiar with a variety of front-end and back-end technology, many years of C++ language research and development experience, participate in application software development in multiple industries, and have in-depth research on BitShares and DPoS consensus.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/zhangxiangli.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Xiangli Zhang<br><span class="blue-txt">PalletOne Senior Core R&D Engineer<br>manager of the underlying chain transaction adapter model</span></h4>
-                        
-                        <p class="text-left">With years of experience in C / CPP development, familiar with encryption and decryption algorithms, bitcoin, data structure and algorithms have a deeper understanding, block chain lover.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/wangligang.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Ligang Wang<br><span class="blue-txt">PalletOne Senior Development Engineer<br>leader of chain data API and wallet service module</span></h4>
-                        
-                        <p class="text-left">aster degree from China University of Petroleum (Beijing), with experience in data communications, big data, block chains, micro-services related development, and engaged in economic research.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member">
-                        <img src="../images/wuzhiyuan.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Zhiyuan Wu<br><span class="blue-txt">PalletOne Senior Development Engineer<br>head of system contract module</span></h4>
-                        
-                        <p class="text-left">Graduated from Beijing University of Posts and Telecommunications, MBA. Engaged in block chain investment and Practice for many years. Focus on technology and study the sociological and economic significance of blockchain.</p>
-                    </div>
-                </div>
-            </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-          </div>
-        </div>
-    </div>
-</section>
-<section id="Team" class="team team-section">
-<div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <h1 class="g-title">Advisors</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="col-sm-4 wow fadeInLeft swiper-slide">
-                    <div class="team-member" style="height: 410px;">
-                        <img src="../images/mengyan.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Yan Meng<br><span class="blue-txt">Vice president of CSDN</span></h4>
-                        
-                        <p class="text-left">One of the promoters of "Tong Zheng" (Token) conception.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 swiper-slide">
-                    <div class="team-member" style="height: 410px;">
-                        <img src="../images/ligong2.png"  class="img-responsive img-circle img-small" alt="">
-                        <h4>Dr.Li Gong<br><span class="blue-txt">PalletOne Chief Scientist</span></h4>
-                        
-                        <p class="text-left">President of Mozilla company，Former 
-vice president of  Microsoft China R & D 
-group，president of China Engineering Research Institute of Sun. Got a bacherlor’s degree and a master’s degree in computer science of Tsinghua University, Ph. D. of computer science of University of Cambridge.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInRight swiper-slide">
-                    <div class="team-member" style="height: 410px;">
-                        <img src="../images/AkiyoshiFukumitsu.png"  class="img-responsive img-circle img-small" alt="">
-                        <h5>AkiyoshiFukumitsu<br><span class="blue-txt">Founder & CEO of Hivelocity inc</span></h5>
-                        
-                        <p class="text-left">Based in Tokyo, over 20 years of web development, online marketing and business solutions extensive experience.</p>
-                    </div>
-                </div>
-            </div>
-                <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-          </div>
-            
-        </div>
-</section>
-<section id="" class="navy-section testimonials">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center wow zoomIn">
-                <h1 class="g-title">
-                   Investment Funds<br>
-                </h1>
-                <div class="testimonials-text">
-                    <img src="../images/yuandaoziben.png">
-					<img src="../images/bitrise.jpg">
-					<img src="../images/bwfund.jpg">
-					<img src="../images/danhua.png">
-                    <img src="../images/genesis.jpg">
-                    <img src="../images/hcapital.jpg">
-                    <img src="../images/jiedian.png">
-                    <img src="../images/linkvc.png">
-                </div>
-                <div class="testimonials-text">
-                    <img src="../images/funds.png" >
-                    <img src="../images/6.jpg" >
-                    <img src="../images/5.jpg" >
-                    <img src="../images/yinli.jpg" >
-                    <img src="../images/8.jpg" >
-                    <img src="../images/7.png" >
-                </div>
-				<div class="testimonials-text wow bounceIn animated">
-				<img src="../images/2.jpg" >
-				<img src="../images/3.jpg" >
-				<img src="../images/4.jpg" >
-				</div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="features" id="QA">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="g-title"> Q&A </h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 features-text">
-                <h2>Differences with other inter-chain solution?</h2>
-                <p>Most recent solutions deal with blockchain interoperability by building one trustable adapter for each pair of chains. One popular adapter can be the inter-chain that consists of fully replicated nodes running the same consensus protocol. In comparison, PalletOne bridges one chain with others through a decoupled, lightweight, and meta-level smart contract layer. The consensus is reached among the Jurors selected before the contract execution. Jurors responsible for execution have the contract states.</p>
-            </div>
-            <div class="col-lg-6 features-text">
-                <h2>Which blockchain does PalletOne support?</h2>
-                <p>Many new blockchains are forked from Bitcoin and Ethereum. We are starting with Bitcoin and Ethereum, and then move to other popular blockchains as soon as possible. We encourage community developers to contribute to the bridge with other chains.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 features-text">
-                <h2>What do you mean by decoupling contract?</h2>
-                <p>Decoupling Contract means that the contract execution is decoupled from the blockchain beneath and is done at PalletOne level. After execution, contract states are stored in the Jury and/or the blockchain beneath.</p>
-            </div>
-        </div>
-    </div>
-
-</section>
-<section id="contact" class="contact">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <h1 class="g-title">Contact Us</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <form role="form">
-                    <div class="form-group">
-                        <span class="sps"><img src="../images/send_bg_ioc.jpg"></span><input type="text" class="form-control inp-text" id="" placeholder="contact@pallet.one" style="text-indent: 45px;">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-5">
-                <img src="../images/logo_footer.png" class="img-responsive" style="margin-top:-55px;" width="150" height="150">
-            </div>
-            <div class="col-xs-7">
-                <ul class="list-inline pull-right">
-                    <li><a href="https://twitter.com/PalletOne_org" target="view_window"><img src="../images/icon-bird.png"></a>
-                    </li>
-                    <li><a href="https://www.facebook.com/palletone.protocol" target="view_window"><img src="../images/icon-f.png"></a>
-                    </li>
-                    <li><a href="https://t.me/PalletOneOfficialEN" target="view_window"><img src="../images/telegram.png"></a>
-                    </li>
-                    <li id="qq" style="position: relative">
-                        <div style="width: 100px;height:100px;position: absolute;top:-115px;left:-36px;z-index: 999;display: none;" id="showWx">
-                            <img src="../images/QRcode.jpg" width="100%" height="100%">
+            </section>
+            <section id="Usage" class="container services">
+                <div class="row">
+                    <div class="col-sm-2 col-xs-6 wow zoomIn animated">
+                        <div class="services-bg">
+                            <img src="../images/icon_za.png">
+                            <h2>Zcash</h2>
+                            <p>Using zero knowledge proof to provide enhanced privacy</p>
                         </div>
-                        <img src="../images/wechat.png"  width="30" height="30" id="wx" style="cursor: pointer">
-                    </li>
-					<li><a href="https://github.com/PalletOne" target="view_window"><img src="../images/github.png"></a>
-                    </li>
-                    <li><a href="http://palletone.club" target="view_window"><img src="../images/icon-forum.png"  width="30" height="30"></a>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 wow zoomIn animated">
+                        <div class="services-bg">
+                            <img src="../images/icon_li.png">
+                            <h2>Litecoin</h2>
+                            <p>Coin refined from Bitcoin</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 wow zoomIn animated">
+                        <div class="services-bg">
+                            <img src="../images/icon_et.png">
+                            <h2>Ethereum</h2>
+                            <p>A cryptocurrency featuring smart contract</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 wow zoomIn animated">
+                        <div class="services-bg">
+                            <img src="../images/icon_bi.png">
+                            <h2>Bitcoin</h2>
+                            <p>Most widely used cryptocurrency</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 wow zoomIn animated">
+                        <div class="services-bg">
+                            <img src="../images/icon_io.png">
+                            <h2>IOTA</h2>
+                            <p>A cryptocurrency featuring zero transaction fee</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </div>
-</section>
-<script src="js/jquery-2.1.1.js" ></script>
-<script src="js/pace.min-1.js" ></script>
-<script src="js/bootstrap.min-1.js" ></script>
-<script src="js/swiper.min.js"></script>
-<script src="js/classie.js" ></script>
-<script src="js/cbpAnimatedHeader.js" ></script>
-<script src="js/wow.min.js" ></script>
-<script src="js/inspinia.js" ></script>
-</body>
+        <div class="section-bg-2 container">
+            <section class="features" id="pallet">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="g-title">PalletOne Technology Advantages</h1></div>
+                </div>
+                <div class="row features-block">
+                    <div class="col-lg-6 text-right wow fadeInRight">
+                        <img src="../images/pic_chain.png" alt="dashboard" class="img-responsive pull-right" style="width:60%; margin:0 20%;"></div>
+                    <div class="col-lg-6 features-text wow fadeInLeft">
+                        <h2>Multi-Chain</h2>
+                        <p>PalletOne smart contracts support multi-chain. Through the Jury consensus and adaptation layer, PalletOne smart contracts can run on different blockchains at the same time. PalletOne smart contract can interact with diﬀerent blockchains at the same time, so users can trade tokens from diﬀerent blockchains in one PalletOne contract invocation to make the inter-chain token exchange distributed, atomic, and immutable.</p>
+                    </div>
+                </div>
+                <div class="row features-block">
+                    <div class="col-lg-6 features-text wow fadeInLeft">
+                        <img src="../images/pic_task.png" alt="dashboard" class="img-responsive pull-right"></div>
+                    <div class="col-lg-6 wow fadeInRight">
+                        <h2>Multi-Task</h2>
+                        <p>The verification, execution, etc. of the PalletOne smart contract can be done by the Jury specifically created for it. The Jury is composed of a group of jurors at random selected from the candidate jurors randomly. Smart contracts in PalletOne can be implemented by selecting different juries in a multi-tasking manner. Compared with the whole-network consensus approach, PalletOne network congestion will be effectively reduced.</p>
+                    </div>
+                </div>
+                <div class="row features-block">
+                    <div class="col-lg-6 text-right wow fadeInRight">
+                        <img src="../images/pic_security.png" alt="dashboard" class="img-responsive pull-right"></div>
+                    <div class="col-lg-6 features-text wow fadeInLeft">
+                        <h2>Security</h2>
+                        <p>PalletOne's security is reflected in two aspects, one is the security of development, and the other is the security of contract execution. When a user develops a corresponding scene contract, he/she only needs to call a standard contract and complete DAPP development in a few steps. PalletOne VM can provide a safe and efficient sandbox operating environment for smart contracts.</p>
+                    </div>
+                </div>
+                <div class="row features-block">
+                    <div class="col-lg-6 features-text wow fadeInLeft">
+                        <img src="../images/pic_plat.png" alt="dashboard" class="img-responsive pull-right"></div>
+                    <div class="col-lg-6 wow fadeInRight">
+                        <h2>Multi-Language & Multi-Platform</h2>
+                        <p>· DApp developers of PalletOne can develop smart contracts using mainstream development languages without having to learn a new contract development language.</p>
+                        <p>· PalletOne VM is completely decoupled from the underlying operation system, which allow PalletOne smart contract adapt to windows, Linux, Mac as well as other types of platform.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="Timeline" class="navy-section testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center wow zoomIn">
+                        <h1 class="g-title">Timeline</h1>
+                        <div class="testimonials-text text-left">
+                            <div class="left pull-left">
+                                <ul>
+                                    <li>
+                                        <h2>2015 Oct</h2>
+                                        <p>vChain (internal project) Con-cept born</p>
+                                        <img src="../images/icon_y.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                    <li>
+                                        <h2>2016 Nov</h2>
+                                        <p>Update vChain-compat-openssl.spec</p>
+                                        <img src="../images/icon_g.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                    <li>
+                                        <h2>2017 May</h2>
+                                        <p>Modify vChain EVM from Eth-ereum EVM</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                    <li>
+                                        <h2>2017 Sep</h2>
+                                        <p>Release vChain v1.2</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                    <li>
+                                        <h2>2018 Mar</h2>
+                                        <p>Release PalletOne White Paper</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                    <li>
+                                        <h2>2018 Q2</h2>
+                                        <p>PalletOne Development and Open Source</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                    <li>
+                                        <h2>2018 Q3</h2>
+                                        <p>Publish Ethereum-supported PalletOne Protocol</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                    <li>
+                                        <h2>2019 Q2</h2>
+                                        <p>PalletOne MainNet online</p>
+                                        <img src="../images/icon_bb.png">
+                                        <img class="arrow" src="../images/arrow-right.png"></li>
+                                </ul>
+                            </div>
+                            <div class="right pull-left">
+                                <ul>
+                                    <li>
+                                        <h2>2016 Apr</h2>
+                                        <p>Release illustration about vChain</p>
+                                        <img src="../images/icon_g.png">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                    <li>
+                                        <h2>2017 Feb</h2>
+                                        <p>Develop vChain explorer</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                    <li>
+                                        <h2>2017 June</h2>
+                                        <p>Decouple oracle module from vChain</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                    <li>
+                                        <h2>2017 Sep</h2>
+                                        <p>Concept of PalletOne born</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                    <li>
+                                        <h2>2018 May</h2>
+                                        <p>Release PalletOne Yellow Paper</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                    <li>
+                                        <h2>2018 Q3</h2>
+                                        <p>Publish Bitcoin-supported PalletOne Protocol</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                    <li>
+                                        <h2>2018 Q4</h2>
+                                        <p>PalletOne TestNet online</p>
+                                        <img src="../images/icon_b.png">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                    <li>
+                                        <h2>2019 Q3</h2>
+                                        <p>Connect to more blockchains</p>
+                                        <img src="../images/icon_bb.png" style="top:40%;">
+                                        <img class="arrow" src="../images/arrow-left.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Team" class="team team-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="g-title">Our Team</h1></div>
+                </div>
+                <div class="row">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper" style="margin-bottom: 48px;">
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/zhupeijiang.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Peijiang Zhu
+                                        <br>
+                                        <span class="blue-txt">Co-Founder of PalletOne community</span></h4>
+                                    <p class="text-left">Secretary General of Z-Park Blockchain Industry Alliance Engaged in network，video as well as blockchain technology research for years.Expert at underlying blockchain technology , consensus algorithm ,token economy ecosystem.</p></div>
+                            </div>
+                            <div class="col-sm-4 swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/jones.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Matthew Jones
+                                        <br>
+                                        <span class="blue-txt">Co-Founder of PalletOne community</span></h4>
+                                    <p class="text-left">Business Planner,MICROSOFT Acquired master degaree from the university of Texas at Austin.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/zengyi.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Yi Zeng
+                                        <br>
+                                        <span class="blue-txt">PalletOne Co-founder&CTO</span></h4>
+                                    <p class="text-left">Database expert, author of "SQL Server database technical handbook",work and research in database application, data warehouse, big data and blockchain technology. developed on Fabric.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/wangcuicui.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Cuicui Wang
+                                        <br>
+                                        <span class="blue-txt">PalletOne Co-founder&System Analyst</span></h4>
+                                    <p class="text-left">M.A. of Beijing University of Posts and Telecommunications,worked in Baidu and subordinate research institution of certain state management department. Expert at research of network security, network traffic analysis as well as blockchain technology.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInRight swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/chenzhenguo.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Kenneth Chen
+                                        <br>
+                                        <span class="blue-txt">Co-Founder of PalletOne Community</span></h4>
+                                    <p class="text-left">Co-Founder & CTO of GenieNRM Chief Strategy officer of TelTel Co-Founder & CTO of Datamite Technology 20 years experience in products design and management.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/liujian.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Dr.Jian Liu
+                                        <br>
+                                        <span class="blue-txt">Specialist of PalletOne</span></h4>
+                                    <p class="text-left">The doctor of National University of Defense Technology.Engaged in the development and research of operating system, distributed computing, supercomputer and so on for years</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/chenyu.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Dr.Yu Che
+                                        <br>
+                                        <span class="blue-txt">Specialist of PalletOne</span></h4>
+                                    <p class="text-left">Served as a research scientist in the US Summus Inc, mainly developing algorithms and software for image processing and pattern recognition in the US Defense Research Department, such as ONR and Sandia National Labs.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/shiningning.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Ningning Shi
+                                        <br>
+                                        <span class="blue-txt">Specialist of PalletOne</span></h4>
+                                    <p class="text-left">Specialist of PalletOne.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/maoxiaojun.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Xiaojun Mao
+                                        <br>
+                                        <span class="blue-txt">PalletOne CMO</span></h4>
+                                    <p class="text-left">As Senior Market Consultant for Blockchain Industrial Alliance of Zhongguancun , as CEO of STARTHALO (Beijing) Media Technology Co., Ltd. as master of management of MSC, ESC Rennes School of Business, France. Having worked in the Economic Management College for DBA Office of Beijing University of Posts and Telecommunications.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/liudonghai.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Donghai Liu
+                                        <br>
+                                        <span class="blue-txt">PalletOne director of operation</span></h4>
+                                    <p class="text-left">As Senior Market Director for Blockchain Industrial Alliance of Zhonggancun, as executive director of STARTHALO (Beijing) Media Technology Co., Ltd., and general manager of Harmony Totem (Beijing) Commercial Management Co.,Ltd.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/fengminsen.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Minsen Feng
+                                        <br>
+                                        <span class="blue-txt">PalletOne Asia-Pacific Marketing Director</span></h4>
+                                    <p class="text-left">PalletOne Asia-Pacific Marketing Director.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/zhaoxiang.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Xiang Zhao
+                                        <br>
+                                        <span class="blue-txt">PalletOne Asia-Pacific Marketing Director</span></h4>
+                                    <p class="text-left">PalletOne Asia-Pacific Marketing Director.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/zhangzheng.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Zheng Zhang
+                                        <br>
+                                        <span class="blue-txt">PalletOne manager of operation</span></h4>
+                                    <p class="text-left">COO for STARTHALO (Beijing) Media Technology Co., Ltd.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/yangyu.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Yu Yang
+                                        <br>
+                                        <span class="blue-txt">PalletOne Distributed Storage DAG Module Leader</span></h4>
+                                    <p class="text-left">Master of Science in Electronics and Communication Engineering, Beijing Jiaotong University. Has many years of development experience, early researcher of Bitcoin, Ethereum and DAG technology.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/guolihua.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Lihua Guo
+                                        <br>
+                                        <span class="blue-txt">PalletOne senior engineer
+                                            <br>leader of virtual machine and contract management module</span></h4>
+                                    <p class="text-left">Engaged in software development, architecture design and multi-year technical management of the Internet and broadcasting industry. Has in-depth research and practical development experience on blockchains such as fabric and bitcoin.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/wangjiyou.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Jiyou Wang
+                                        <br>
+                                        <span class="blue-txt">Leader of the PalletOne code framework and p2p network module</span></h4>
+                                    <p class="text-left">Master of Bohai University. Proficient in C, C++, Go languages, rich experience in DHCPv6, ND, RUI protocols, and high-performance server design and development; Familiar with block chain P2P network design and development.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/yangjie.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Jie Yang
+                                        <br>
+                                        <span class="blue-txt">PalletOne development engineer
+                                            <br>storage DAG and memory management</span></h4>
+                                    <p class="text-left">Graduated from Beijing university of chemical technology, majoring in computer science, I have been engaged in the development of the back-end of go language for a long time, and have a deep understanding of the basic elements and design of block chain.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/gouguangquan.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Albert·Gou
+                                        <br>
+                                        <span class="blue-txt">PalletOne core development engineer
+                                            <br>leader of consensus algorithm module</span></h4>
+                                    <p class="text-left">Familiar with a variety of front-end and back-end technology, many years of C++ language research and development experience, participate in application software development in multiple industries, and have in-depth research on BitShares and DPoS consensus.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/zhangxiangli.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Xiangli Zhang
+                                        <br>
+                                        <span class="blue-txt">PalletOne Senior Core R&D Engineer
+                                            <br>manager of the underlying chain transaction adapter model</span></h4>
+                                    <p class="text-left">With years of experience in C / CPP development, familiar with encryption and decryption algorithms, bitcoin, data structure and algorithms have a deeper understanding, block chain lover.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/wangligang.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Ligang Wang
+                                        <br>
+                                        <span class="blue-txt">PalletOne Senior Development Engineer
+                                            <br>leader of chain data API and wallet service module</span></h4>
+                                    <p class="text-left">aster degree from China University of Petroleum (Beijing), with experience in data communications, big data, block chains, micro-services related development, and engaged in economic research.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member">
+                                    <img src="../images/wuzhiyuan.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Zhiyuan Wu
+                                        <br>
+                                        <span class="blue-txt">PalletOne Senior Development Engineer
+                                            <br>head of system contract module</span></h4>
+                                    <p class="text-left">Graduated from Beijing University of Posts and Telecommunications, MBA. Engaged in block chain investment and Practice for many years. Focus on technology and study the sociological and economic significance of blockchain.</p></div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Team" class="team team-section">
+            <div class="container">
+                <div class="row m-b-lg">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="g-title">Advisors</h1></div>
+                </div>
+                <div class="row">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="col-sm-4 wow fadeInLeft swiper-slide">
+                                <div class="team-member" style="height: 410px;">
+                                    <img src="../images/mengyan.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Yan Meng
+                                        <br>
+                                        <span class="blue-txt">Vice president of CSDN</span></h4>
+                                    <p class="text-left">One of the promoters of "Tong Zheng" (Token) conception.</p></div>
+                            </div>
+                            <div class="col-sm-4 swiper-slide">
+                                <div class="team-member" style="height: 410px;">
+                                    <img src="../images/ligong2.png" class="img-responsive img-circle img-small" alt="">
+                                    <h4>Dr.Li Gong
+                                        <br>
+                                        <span class="blue-txt">PalletOne Chief Scientist</span></h4>
+                                    <p class="text-left">President of Mozilla company，Former vice president of  Microsoft China R & D group，president of China Engineering Research Institute of Sun. Got a bacherlor’s degree and a master’s degree in computer science of Tsinghua University, Ph. D. of computer science of University of Cambridge.</p></div>
+                            </div>
+                            <div class="col-sm-4 wow fadeInRight swiper-slide">
+                                <div class="team-member" style="height: 410px;">
+                                    <img src="../images/AkiyoshiFukumitsu.png" class="img-responsive img-circle img-small" alt="">
+                                    <h5>AkiyoshiFukumitsu
+                                        <br>
+                                        <span class="blue-txt">Founder & CEO of Hivelocity inc</span></h5>
+                                    <p class="text-left">Based in Tokyo, over 20 years of web development, online marketing and business solutions extensive experience.</p></div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+        </section>
+        <section id="" class="navy-section testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center wow zoomIn">
+                        <h1 class="g-title">Investment Funds
+                            <br></h1>
+                        <div class="testimonials-text">
+                            <img src="../images/yuandaoziben.png">
+                            <img src="../images/bitrise.jpg">
+                            <img src="../images/bwfund.jpg">
+                            <img src="../images/danhua.png">
+                            <img src="../images/genesis.jpg">
+                            <img src="../images/hcapital.jpg">
+                            <img src="../images/jiedian.png">
+                            <img src="../images/linkvc.png"></div>
+                        <div class="testimonials-text">
+                            <img src="../images/funds.png">
+                            <img src="../images/6.jpg">
+                            <img src="../images/5.jpg">
+                            <img src="../images/yinli.jpg">
+                            <img src="../images/8.jpg">
+                            <img src="../images/7.png"></div>
+                        <div class="testimonials-text wow bounceIn animated">
+                            <img src="../images/2.jpg">
+                            <img src="../images/3.jpg">
+                            <img src="../images/4.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features" id="QA">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="g-title">Q&A</h1></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 features-text">
+                        <h2>Differences with other inter-chain solution?</h2>
+                        <p>Most recent solutions deal with blockchain interoperability by building one trustable adapter for each pair of chains. One popular adapter can be the inter-chain that consists of fully replicated nodes running the same consensus protocol. In comparison, PalletOne bridges one chain with others through a decoupled, lightweight, and meta-level smart contract layer. The consensus is reached among the Jurors selected before the contract execution. Jurors responsible for execution have the contract states.</p>
+                    </div>
+                    <div class="col-lg-6 features-text">
+                        <h2>Which blockchain does PalletOne support?</h2>
+                        <p>Many new blockchains are forked from Bitcoin and Ethereum. We are starting with Bitcoin and Ethereum, and then move to other popular blockchains as soon as possible. We encourage community developers to contribute to the bridge with other chains.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 features-text">
+                        <h2>What do you mean by decoupling contract?</h2>
+                        <p>Decoupling Contract means that the contract execution is decoupled from the blockchain beneath and is done at PalletOne level. After execution, contract states are stored in the Jury and/or the blockchain beneath.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row m-b-lg">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="g-title">Contact Us</h1></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form role="form">
+                            <div class="form-group">
+                                <span class="sps">
+                                    <img src="../images/send_bg_ioc.jpg"></span>
+                                <input type="text" class="form-control inp-text" id="" placeholder="contact@pallet.one" style="text-indent: 45px;"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <img src="../images/logo_footer.png" class="img-responsive" style="margin-top:-55px;" width="150" height="150"></div>
+                    <div class="col-xs-7">
+                        <ul class="list-inline pull-right">
+                            <li>
+                                <a href="https://twitter.com/PalletOne_org" target="view_window">
+                                    <img src="../images/icon-bird.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/palletone.protocol" target="view_window">
+                                    <img src="../images/icon-f.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/PalletOneOfficialEN" target="view_window">
+                                    <img src="../images/telegram.png"></a>
+                            </li>
+                            <li id="qq" style="position: relative">
+                                <div style="width: 100px;height:100px;position: absolute;top:-115px;left:-36px;z-index: 999;display: none;" id="showWx">
+                                    <img src="../images/QRcode.jpg" width="100%" height="100%"></div>
+                                <img src="../images/wechat.png" width="30" height="30" id="wx" style="cursor: pointer"></li>
+                            <li>
+                                <a href="https://github.com/PalletOne" target="view_window">
+                                    <img src="../images/github.png"></a>
+                            </li>
+                            <li>
+                                <a href="http://palletone.club" target="view_window">
+                                    <img src="../images/icon-forum.png" width="30" height="30"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/pace.min-1.js"></script>
+        <script src="js/bootstrap.min-1.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/inspinia.js"></script>
+    </body>
 </html>
