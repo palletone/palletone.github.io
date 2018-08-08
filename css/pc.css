@@ -146,3 +146,52 @@
 .tex{width:100%;height:100%;position: absolute;top:0px;right:0px;background-color: #000;opacity: 0.8;color: #fff;display: none;}
 .tex h2{color: #fff;margin-top: 26px;}
 .tex p{color: #fff;padding: 10px;}
+
+#investor {
+    display: flex;
+    justify-content: start;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+#investor div {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+#box div {
+    width: 120px;
+    height: 135px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#rectangle div {
+    width: 200px;
+    height: 120px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#rectangle2 div {
+    width: 260px;
+    height: 120px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#box div+div:not(:nth-child(5n)) {
+    margin-left: 5px;
+}
